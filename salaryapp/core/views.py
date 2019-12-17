@@ -1,7 +1,7 @@
 # CORE / VIEWS.PY
 
 from flask import render_template, request, Blueprint
-from siteapp.models import Post
+from salaryapp.models import Post
 
 core = Blueprint('core', __name__)
 

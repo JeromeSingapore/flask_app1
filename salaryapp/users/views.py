@@ -1,10 +1,10 @@
 # USERS/VIEWS.PY
 from flask import render_template, url_for, flash, redirect, request, Blueprint
 from flask_login import login_user, current_user, logout_user, login_required
-from siteapp import db
-from siteapp.models import User, Post
-from siteapp.users.forms import RegistrationForm, LoginForm, UpdateUserForm
-from siteapp.users.picture_handler import add_profile_pic
+from salaryapp import db
+from salaryapp.models import User, Post
+from salaryapp.users.forms import RegistrationForm, LoginForm, UpdateUserForm
+from salaryapp.users.picture_handler import add_profile_pic
 
 users = Blueprint('users', __name__)
 

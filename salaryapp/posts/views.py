@@ -2,8 +2,8 @@
 from flask import render_template, url_for, flash, redirect, request, Blueprint
 from flask_login import current_user, login_required
 from siteapp import db
-from siteapp.models import Post
-from siteapp.posts.forms import PostForm
+from salaryapp.models import Post
+from salaryapp.posts.forms import PostForm
 
 posts = Blueprint('posts', __name__)
 
