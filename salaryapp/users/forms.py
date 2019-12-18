@@ -6,7 +6,7 @@ from wtforms import ValidationError
 from flask_wtf.file import FileField, FileAllowed
 
 from flask_login import current_user
-from siteapp.models import User
+from salaryapp.models import User
 
 class LoginForm(FlaskForm):
     email = StringField('Email', validators=[DataRequired(), Email()])
