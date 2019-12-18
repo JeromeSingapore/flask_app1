@@ -1,4 +1,4 @@
-from siteapp import app
+from salaryapp import app
 
 # Test for Git change
 # Test for Github push Test

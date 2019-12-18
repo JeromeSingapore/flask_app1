@@ -31,10 +31,10 @@ login_manager.init_app(app)
 login_manager.login_view = 'users.login'
 
 
-from siteapp.core.views import core
-from siteapp.users.views import users
+from salaryapp.core.views import core
+from salaryapp.users.views import users
 # from siteapp.posts.views import posts
-from siteapp.error_pages.handlers import error_pages
+from salaryapp.error_pages.handlers import error_pages
 
 
 app.register_blueprint(core)
